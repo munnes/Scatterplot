@@ -1,0 +1,35 @@
+#title{
+    fill:rgb(47, 9, 90);
+    font-size: x-large;
+}
+
+body{
+    font-family: sans-serif;
+}
+.dot:hover {
+   /* fill: rgb(255, 255, 255);*/
+   stroke: #663300;
+   stroke-width: 2;
+  }
+
+  .tick{
+      font-size: 12px;
+  }
+ #y-txt{
+    font-size: 17px;
+ }
+ 
+div{
+    width:960px;
+    text-align: center;
+}
+.k{
+    opacity:1
+}
+.txtK{
+    font-size: 12px; 
+}
+#rectK{
+    fill:lightgray;
+    opacity:0.2;
+}
