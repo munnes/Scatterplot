@@ -88,8 +88,8 @@ let gDot=svg.selectAll('g')
  const cirDot= gDot
      .enter()
      .append('circle')
-          .transition().duration(2000)
-          .delay((d,i) => i * 5)
+          .transition().duration(2000)//dot movement
+          .delay((d,i) => i * 5)//dot movement
           .attr("cx",d=>xScale(d[0])+125)
           .attr("cy",d=>yScale(d3.timeParse(tParser)(d[1])))
           .attr("r", 7)
@@ -134,18 +134,3 @@ colorLegend,{
 )
 
  }
-
-
-
-
-
-
-
-
-
- 
-  
- 
-     
-      
- 
